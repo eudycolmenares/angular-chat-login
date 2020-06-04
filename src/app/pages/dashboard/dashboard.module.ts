@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { DashboardComponent } from "./dashboard.component";
 import { DashboardRoutingModule } from "./dashboard-routing.module";
-
 import { ChatHeaderComponent } from "../../components/chat-header/chat-header.component";
 
 @NgModule({
@@ -11,10 +11,10 @@ import { ChatHeaderComponent } from "../../components/chat-header/chat-header.co
       DashboardRoutingModule,
    ],
    declarations: [
+      DashboardComponent,
       ChatHeaderComponent
    ],
    exports: [
-      ChatHeaderComponent
    ]
 })
 
