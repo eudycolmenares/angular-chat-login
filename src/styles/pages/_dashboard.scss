@@ -1,0 +1,22 @@
+.container-dashboard {
+   display: grid;
+   grid-template-areas:
+      'menu header header'
+      'menu chats messages';
+
+   .menu {
+      grid-area: menu;
+   }
+
+   .header {
+      grid-area: header;
+   }
+
+   .chats {
+      grid-area: chats;
+   }
+
+   .messages {
+      grid-area: messages;
+   }
+}
