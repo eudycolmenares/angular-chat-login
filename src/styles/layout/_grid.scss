@@ -5,7 +5,8 @@ body {
 
 .container-main {
    min-height   : 450px;
-   width        : calc(100vw - (2 * #{$margin-section}) );
+   height       : 450px;
+   width        : calc(100vw - (2 * #{$margin-section}));
    //
    overflow-y   : auto;
    margin       : 1rem !important;

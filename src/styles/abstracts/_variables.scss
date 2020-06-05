@@ -1,5 +1,14 @@
 // COLORS
-$red-dark: darken(red, 30%);
+:root {
+   --color-primary  : #4051c1;
+   --color-secondary: #0776bf;
+   --color-terciary : #9d79fe;
+   --color-subtitle: grey;
+}
+
+$color-primary  : #4051c1;
+$color-secondary: #0776bf;
+$color-terciary : #9d79fe;
 
 // MARGIN
 $margin-section: 1rem;

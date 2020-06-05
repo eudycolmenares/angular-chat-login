@@ -1,5 +1,7 @@
 .container-dashboard {
-   display: grid;
+   height            : 100%;
+   grid-template-rows: 5rem auto;
+   display           : grid;
    grid-template-areas:
       'menu header header'
       'menu chats messages';
@@ -9,7 +11,8 @@
    }
 
    .header {
-      grid-area: header;
+      grid-area : header;
+      background: linear-gradient(45deg, black, transparent);
    }
 
    .chats {
