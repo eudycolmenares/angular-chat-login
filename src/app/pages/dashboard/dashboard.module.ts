@@ -3,7 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { DashboardComponent } from "./dashboard.component";
 import { DashboardRoutingModule } from "./dashboard-routing.module";
+
 import { ChatHeaderComponent } from "../../components/chat-header/chat-header.component";
+import { ChatMenuComponent } from "../../components/chat-menu/chat-menu.component";
+import { ChatChatsComponent } from "../../components/chat-chats/chat-chats.component";
+import { ChatMessagesComponent } from "../../components/chat-messages/chat-messages.component";
 
 @NgModule({
    imports: [
@@ -12,7 +16,10 @@ import { ChatHeaderComponent } from "../../components/chat-header/chat-header.co
    ],
    declarations: [
       DashboardComponent,
-      ChatHeaderComponent
+      ChatHeaderComponent,
+      ChatMenuComponent,
+      ChatChatsComponent,
+      ChatMessagesComponent
    ],
    exports: [
    ]
