@@ -1,1 +1,27 @@
-<p>chat-chats works!</p>
+<section class="container-chats">
+   <label class="title-main">Todos los chats</label>
+
+   <form class="uk-search uk-search-default uk-width-1-1">
+      <a href="" class="uk-search-icon-flip" uk-search-icon style="z-index: 100;"></a>
+      <input class="uk-search-input" type="search" placeholder="Buscar...">
+   </form>
+
+   <div class="card-chat uk-card uk-card-default uk-width-1-1">
+      <div class="uk-card-header">
+         <div class="info-chat">
+            <app-avatar class="avatar" [showBorder]="false"></app-avatar>
+            <div>
+               <label class="name">Scarlet Johansson</label>
+               <p class="message">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus semper arcu, eu dignissim sem
+                  iaculis in. Etiam nec arcu et dui faucibus laoreet.
+               </p>
+            </div>
+            <div class="additional">
+               <label class="date">07 Jun</label>
+               <label class="unread">&#x2b24;</label>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>

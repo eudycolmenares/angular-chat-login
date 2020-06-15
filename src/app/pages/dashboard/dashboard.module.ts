@@ -8,6 +8,8 @@ import { ChatHeaderComponent } from "../../components/chat-header/chat-header.co
 import { ChatMenuComponent } from "../../components/chat-menu/chat-menu.component";
 import { ChatChatsComponent } from "../../components/chat-chats/chat-chats.component";
 import { ChatMessagesComponent } from "../../components/chat-messages/chat-messages.component";
+//
+import { AvatarComponent } from "../../components/avatar.component";
 
 @NgModule({
    imports: [
@@ -19,7 +21,8 @@ import { ChatMessagesComponent } from "../../components/chat-messages/chat-messa
       ChatHeaderComponent,
       ChatMenuComponent,
       ChatChatsComponent,
-      ChatMessagesComponent
+      ChatMessagesComponent,
+      AvatarComponent
    ],
    exports: [
    ]

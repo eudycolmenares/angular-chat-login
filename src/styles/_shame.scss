@@ -1,5 +1,11 @@
 .subtitle {
-   font-size  : .8rem;
+   font-size  : var(--font-sm);
    color      : var(--color-subtitle);
    font-weight: bold;
+}
+
+.title-main {
+   color      : white;
+   font-weight: bold;
+   font-size  : var(--font-md);
 }
